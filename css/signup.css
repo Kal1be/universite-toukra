@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url("../img/images\ vrai.jpg");
+   
+}
+.container{
+    margin: 20px;
+}
+.contenu{
+    display: flex;
+    background-color: white;
+    padding: 5px 5px;
+}
+.contenu img{
+    width: 70px;
+    height: 70px;
+}
+.contenu h2{
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.contenu h2 strong{
+    color: rgb(1, 175, 1);
+}
+.contenu h2 span{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.hr1 hr{
+    border: 2px solid gray;
+    width: 95%;
+    margin-left: 30px;
+}
+.hr{
+    display: flex;
+}
+.hr hr:nth-child(2){
+    width: 100%;
+    border: 1px solid rgb(4, 190, 4);
+}
+.hr hr:nth-child(1){
+border: 1px solid white;
+width: 5%;
+}
+.hr hr:nth-child(3){
+    border: 1px solid white;
+    width: 5%;
+}
+.authentic{
+    background-image: url("../img/image\ back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.divclass{
+   position: relative;
+}
+form{
+    background-color: white;
+    margin-left: 35%;
+    width: 33%;
+    margin-top: 30px;
+    padding: 30px;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+form h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+form h5 strong{
+    color: rgb(4, 201, 4);
+}
+.input1{
+    margin: 20px 0;
+}
+.input1 label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.input2{
+    margin: 20px 0;
+}
+.input2 label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.input1 input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    margin: 10px 0;
+}
+.input2 select{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid whitesmoke;
+    font-size: 17px;
+    margin: 10px 0;
+}
+form button{
+    background-color: rgb(3, 170, 3);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgb(3, 170, 3) ;
+    font-weight: bold;
+     font-size: 19px;
+     border-radius: 4px;
+}
+form button a{
+    text-decoration: none;
+    color: white;}
+
+    .corps{
+        background-color: white;
+        margin-left: 21%;
+        width: 60%;
+        margin-top: 15px;
+        padding: 30px;
+        opacity: 0.9;
+        margin-bottom: 20px;
+    }
+    .corps p{
+        line-height: 1.4em;
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .corps p button{
+        background-color: rgb(15, 15, 221);
+        padding: 10px 2px;
+        border-radius: 4px;
+        opacity: 1;
+        border: 1px solid rgb(15, 15, 221);
+    }
+    .corps p button a{
+        text-decoration: none;
+        color: white;
+        opacity: 1;
+    }
+    .corps h2{
+       font-size: 24px;
+       padding: 15px 0;
+    }
+    .corps span{
+        line-height: 1.4em;
+        font-size: 18px;
+        opacity: 0.7;
+        display: block;
+    }
+    .footer{
+        background-color: rgb(1, 156, 1);
+        padding: 25px 20px;
+        color: white;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bob{
+        display: none;
+    }
+
+    @media(max-width:800px){
+        .bob{
+            display: block;
+            background-color: white;
+           margin-top: 70px;
+           padding: 10px 20px;
+          margin-right: 10px;
+          margin-left: 10px;
+        }
+        .corps p button{
+            background-color: rgb(15, 15, 221);
+            padding: 5px 5px;
+            border-radius: 4px;
+            opacity: 1;
+            border: 1px solid rgb(15, 15, 221);
+        }
+        .container{
+            margin: 0 ;
+        }
+        .contenu{
+            position: fixed;
+           margin: 0;
+            width: 100%;
+            z-index: 1;
+            border-top: 2px solid rgb(3, 179, 3);
+            border-bottom: 2px solid gray;
+            padding:5px 5px;
+        }
+        .contenu img{
+            width: 50px;
+            height: 50px;
+            margin-top: 6px;
+        }
+        .contenu h2{
+            font-size: 20px;
+        }
+        .titre h5{
+            font-size: 20px;
+        }
+        .authentic{
+            border-left: 10px solid white;
+            border-right: 10px solid white;
+           margin: 0 10px;
+        }
+        form{
+            width: 90%;
+            opacity: 0.7;
+            margin-left: 20px;
+            margin-top: 40px;
+        
+        }
+        .input1 input{
+            border: 1px solid rgb(180, 180, 180);
+            border-radius: 5px;
+        }
+        .input2 select{
+            border: 1px solid rgb(207, 202, 202);
+            border-radius: 5px;
+        }
+        .corps{
+            width: 97%;
+            margin-left: 5px;
+            /* margin: 0 5px; */
+            margin-bottom: 30px;
+        }
+        .corps button{
+padding: 3px 1px;
+        }
+        .corps button a{
+            font-size: 13px;
+        }
+        .footer{
+            display: block;
+            font-size: 12px;
+            margin: 0 10px;
+            width: 95%;
+            text-align: center;
+            font-weight: 500;
+        }
+        .span{
+            display: block;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+
+
+        .hamburger{
+            width: 28px;
+            height: 28px;
+            cursor:pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            position: relative;
+            float: right;
+        }
+        .hamburger span{
+            display: block;
+            width:100%;
+            height: 3px;
+            background:black;
+            position: absolute;
+            pointer-events: none;
+            transition: opacity 0.3s 0.15s ease-out;}
+            
+        .hamburger span:nth-child(1),
+        .hamburger span:nth-child(3){
+            transition: transform 0.3s ease-out;
+        }
+        
+        .hamburger span:nth-child(1){
+            transform: translateY(7px);
+        }
+        .hamburger span:nth-child(3){
+        transform: translateY(-7px);
+        }
+        .hamburger.open span:nth-child(1){
+            transform: translate(0) rotate(135deg);
+        
+        }
+        .hamburger.open span:nth-child(2){
+            opacity: 0;
+            transition: opacity
+            0s ease out;
+        }
+        .hamburger.open span:nth-child(3){
+            transform: translate(0) rotate(-135deg);
+        }
+    }
+    
+   
