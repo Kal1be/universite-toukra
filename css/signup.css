@@ -254,7 +254,7 @@ padding: 3px 1px;
             margin: 0 10px;
             width: 95%;
             text-align: center;
-            font-weight: 500;
+            font-weight: 400;
         }
         .span{
             display: block;
@@ -273,6 +273,7 @@ padding: 3px 1px;
             align-items: center;
             position: relative;
             float: right;
+            background-color: white;
         }
         .hamburger span{
             display: block;
